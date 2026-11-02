@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local tooling
+.env
+.env.*
+.idea/
+.vscode/
+.gradio/
+
+# Caches and generated reports
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/
+project_structure.text
+
+# Local datasets and image collections
+data/
+Defactify/
+Defactify_Images/
+
+# Trained model artifacts
+models/
+*.pth
+*.pt
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db
